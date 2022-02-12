@@ -29,18 +29,12 @@ public class Deal {
     }
 
     public boolean checkPrice() {
-        if (price > 1000) {
-            return true;
-        } else {
-            return false;
-        }
+        return price > 1000;
     }
 
     public boolean isValidType() {
-        if ( type = " buy" || type = "sale") {
-            return true ;
-         } else { 
-            return false; 
+         return  type = " buy" || type = "sale";
     }
-}
+  }
+
 
