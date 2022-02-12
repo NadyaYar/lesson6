@@ -37,7 +37,10 @@ public class Deal {
     }
 
     public boolean isValidType() {
-        return !(type != "buy" && type != "sale");
+        if ( type = " buy" || type = "sale") {
+            return true ;
+         } else { 
+            return false; 
     }
 }
 
